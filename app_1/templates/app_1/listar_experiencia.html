@@ -7,8 +7,9 @@
 <a href="{% url 'nueva_experiencia' %}" class="btn btn-primary">Agregar Experiencia</a>
 <ul>
     {% for experiencia in experiencias %}
-    <li>{{ experiencia.puesto }} en {{ experiencia.empresa }} ({{ experiencia.fecha_inicio }} - {{ experiencia.fecha_fin
-        }})</li>
+    <li>{{ experiencia.puesto }}/{{ experiencia.empresa }} ({{ experiencia.fecha_inicio }} - {{experiencia.fecha_fin}})
+
+    </li>
     {% endfor %}
 </ul>
 {% endblock %}
