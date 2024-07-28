@@ -1,0 +1,16 @@
+{% extends "app_1/base.html" %}
+
+{% block title %}Buscar Proyecto{% endblock %}
+
+{% block content %}
+<h2>Buscar Proyecto</h2>
+<form method="get">
+    {{ form.as_p }}
+    <button type="submit">Buscar</button>
+</form>
+<ul>
+    {% for proyecto in proyectos %}
+    <li>{{ proyecto.titulo }} - {{ proyecto.descripcion }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

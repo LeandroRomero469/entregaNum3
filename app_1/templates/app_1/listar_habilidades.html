@@ -1,0 +1,13 @@
+{% extends 'app_1/base.html' %}
+
+{% block title %}Listar Habilidades{% endblock %}
+
+{% block content %}
+<h2>Habilidades</h2>
+<a href="{% url 'nueva_habilidad' %}" class="btn btn-primary">Agregar Habilidad</a>
+<ul>
+    {% for habilidad in habilidades %}
+    <li>{{ habilidad.nombre }} - {{ habilidad.nivel }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

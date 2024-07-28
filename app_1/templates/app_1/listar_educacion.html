@@ -1,0 +1,14 @@
+{% extends 'app_1/base.html' %}
+
+{% block title %}Listar Educación{% endblock %}
+
+{% block content %}
+<h2>Educación</h2>
+<a href="{% url 'nueva_educacion' %}" class="btn btn-primary">Agregar Educación</a>
+<ul>
+    {% for educacion in educaciones %}
+    <li>{{ educacion.titulo }} - {{ educacion.institucion }} ({{ educacion.fecha_inicio }} - {{ educacion.fecha_fin }})
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

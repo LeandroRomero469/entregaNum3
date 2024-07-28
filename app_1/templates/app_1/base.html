@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Portafolio{% endblock %}</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'bienvenido' %}">Inicio</a></li>
+                <li><a href="{% url 'listar_proyectos' %}">Proyectos</a></li>
+                <li><a href="{% url 'nuevo_proyecto' %}">Nuevo Proyecto</a></li>
+                <li><a href="{% url 'buscar_proyecto' %}">Buscar Proyecto</a></li>
+                <li><a href="{% url 'listar_habilidades' %}">Habilidades</a></li>
+                <li><a href="{% url 'listar_educacion' %}">Educación</a></li>
+                <li><a href="{% url 'listar_experiencia' %}">Experiencia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>Mi primer Portafolio</p>
+    </footer>
+</body>
+
+</html>
