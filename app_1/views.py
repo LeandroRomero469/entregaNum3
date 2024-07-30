@@ -2,6 +2,9 @@ from django.shortcuts import render, redirect
 from .models import Educacion, Experiencia, Habilidad, Proyecto
 from app_1.forms import EducacionForm, ExperienciaForm, HabilidadForm, ProyectoForm, BuscarPersonaForm
 
+def inicio(request):
+    return render(request, 'app_1/index.html')
+
 def bienvenido(request):
     return render(request, "app_1/bienvenido.html")
 
