@@ -1,48 +1,30 @@
-# nueva_entrega3
+# Mi Portafolio
 
-## Primero usar git clone https://github.com/LeandroRomero469/entregaNum3
+Este es un portafolio personal diseñado para mostrar proyectos, habilidades, educación y experiencia profesional. Utiliza Django para el backend y Bootstrap para la interfaz de usuario.
 
+## Índice
 
-# Despues usar pip install -r requirements.txt, para instalar las versiones usadas en este proyecto.
+- [Descripcion](#descripción)
+- [Características](#características)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-## Tenemos que entrar dentro de entreganum3 para usar el manage.py
+## Descripción
 
-## Uso
+Mi Portafolio es una aplicación web que te permite visualizar y gestionar diversos aspectos de tu carrera profesional. Incluye secciones para proyectos, habilidades, educación y experiencia. El proyecto está construido con Django para el backend y Bootstrap para el diseño.
 
-### Modelos
+## Características
 
-#### Proyecto
-**Este modelo permite gestionar proyectos.**
+- **Navegación Intuitiva:** Un menú de navegación claro y fácil de usar.
+- **Lista de Proyectos:** Muestra una lista de proyectos con sus títulos y descripciones.
+- **Gestión de Habilidades y Experiencia:** Presenta habilidades adquiridas y experiencia profesional.
+- **Educación Continua:** Detalla la formación y el aprendizaje continuo.
 
-- **Campos**:
- # - `titulo`: Título del proyecto.
- # - `descripcion`: Descripción detallada del proyecto.
- # - `fecha_inicio`: Fecha de inicio del proyecto.
- # - `fecha_fin`: Fecha de finalización del proyecto (opcional).
+## Instalación
+1. *Clonar repo
 
- #### Habilidad
-**Este modelo permite gestionar habilidades.**
+## git clone https://github.com/LeandroRomero469/entregaNum3
 
-- **Campos**:
-# - `nombre`: Nombre de la habilidad.
-#  - `nivel`: Nivel de la habilidad (e.g., 'Principiante', 'Intermedio', 'Avanzado').
-
-#### Educacion
-**Este modelo permite gestionar la educación.**
-
-- **Campos**:
-#  - `institucion`: Nombre de la institución educativa.
-#  - `titulo`: Título obtenido.
-#  - `fecha_inicio`: Fecha de inicio de los estudios.
-#  - `fecha_fin`: Fecha de finalización de los estudios (opcional).
-#  - `descripcion`: Descripción adicional de los estudios (opcional).
-
-#### Experiencia
-### Este modelo permite gestionar la experiencia laboral.
-
-- **Campos**:
-#  - `empresa`: Nombre de la empresa.
-#  - `puesto`: Puesto desempeñado.
-#  - `fecha_inicio`: Fecha de inicio en el puesto.
-#  - `fecha_fin`: Fecha de finalización en el puesto (opcional).
-#  - `descripcion`: Descripción de las responsabilidades y logros.
+Estar dentro del directorio entregaNum3 para usar el manage.py.
