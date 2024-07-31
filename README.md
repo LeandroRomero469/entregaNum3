@@ -29,6 +29,3 @@ Mi Portafolio es una aplicación web que te permite visualizar y gestionar diver
 
 Estar dentro del directorio entregaNum3 para usar el manage.py.
 
-## PARA INICIAR AL ADMIN USE.
-dentro del directorio entregaNum3 use: python manage.py createsuperuser
-y prosiga los pasos que le diga la consola. 
